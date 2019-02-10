@@ -27,7 +27,7 @@ PHP is used for header and footer includes.
 
 **Multiple JS plugins are used on the site.**
 
-1. Smoothstate.js: an ajax plugin that hijacks http requests, swapping page content out without page refresh. Significantly improves view change speed and performance in addition to allowing for entrance and exit animations.
+1. SWUP: an ajax plugin that hijacks http requests, swapping page content out without page refresh. Significantly improves view change speed and performance in addition to allowing for entrance and exit animations.
 
 2. AOS ("animate on scroll"). A simple css/js based animation library that activates a variety of css animations on scroll.
 
