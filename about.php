@@ -8,7 +8,7 @@ include 'includes/header.php';
 
 ?>
      
-<main id="about" role="main">
+<main role="main">
 
 <!--banner-->
 

@@ -44,11 +44,14 @@
     <!--<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>-->
     <!--<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>-->
     <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/jquery.smoothState.min.js"></script>
+<!--    <script src="/assets/js/jquery.smoothState.min.js"></script>-->
+    <script src="/assets/js/swup.js"></script>
     <script src="/assets/js/popper.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <!--aos js-->
     <script src="/assets/js/aos.js"></script>
+    <!--recliner js-->
+    <script src="/assets/js/recliner.js"></script>
     <script src="/assets/js/main.js"></script>
     <!-- Default Statcounter code for Workshops in Wild Places http://www.workshopsinwildplaces.com -->
     <script type="text/javascript">
