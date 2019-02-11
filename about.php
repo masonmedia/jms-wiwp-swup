@@ -30,10 +30,10 @@ include 'includes/header.php';
     <div class="container-fluid bg-light p-0 py-1 scene_element scene_element--fadein">
      <div class="row d-flex text-secondary min-70 m-3 shadow-lg rounded">
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-white min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
-            <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0">About <span class="pink">WiWP</span></h2>
-              <p class="p-3 m-0 border enter-bottom">In these unique, innovative workshops, students travel to remote locations throughout the world to connect with the beauty, energy and power of the wild landscape and then – through a facilitated contemplative and creative process – translate that response into abstract paintings.</p>
+            <h2 class="section-title text-uppercase">About <span class="pink">WiWP</span></h2>
+              <p class="pt-2 enter-bottom">In these unique, innovative workshops, students travel to remote locations throughout the world to connect with the beauty, energy and power of the wild landscape and then – through a facilitated contemplative and creative process – translate that response into abstract paintings.</p>
               <a href="#sec-2">
-                <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                <i class="fa fa-long-arrow-down pink enter-bottom"></i>
               </a>
         </div>
         <div class="col-lg-6 bg-img-scotland-5 min-50 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></div>
@@ -44,10 +44,10 @@ include 'includes/header.php';
         <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 bg-img-mongolia min-50 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-white min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-              <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Details</h2>
-                <p class="p-4 m-0 border enter-left">Held in small comfortable lodges in remote, wild locations, these abstract painting workshops guide participants to connect with the land in various ways, and translate that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
+              <h2 class="section-title text-uppercase enter-top">Details</h2>
+                <p class="pt-2 enter-left">Held in small comfortable lodges in remote, wild locations, these abstract painting workshops guide participants to connect with the land in various ways, and translate that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
                 <a href="#sec-3">
-                <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                <i class="fa fa-long-arrow-down pink enter-bottom"></i>
               </a>
             </div>
         </div><!--end row-->
@@ -56,17 +56,36 @@ include 'includes/header.php';
 
         <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
              <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12 bg-white" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase border border-bottom-0 p-3 m-0">About Janice Mason Steeves</h2>
-                 <p class="p-4 m-0 border">Janice brings 35 years of painting experience to her teaching, and a passion to help each student find their own way. Her teaching focuses not only on technique, but on composition, design, color, mindset, and self-expression. She offers a unique method which encourages students to develop their own artistic voices, in addition to a personal way of thinking about art, painting, and life. Find out more at <a class="font-weight-bold pink" href="http://www.janicemasonsteeves.com">janicemasonsteeves.com.</a>
+                <h2 class="section-title text-uppercase">About Janice Mason Steeves</h2>
+                 <p class="pt-2">Janice brings 35 years of painting experience to her teaching, and a passion to help each student find their own way. Her teaching focuses not only on technique, but on composition, design, color, mindset, and self-expression. She offers a unique method which encourages students to develop their own artistic voices, in addition to a personal way of thinking about art, painting, and life. Find out more at <a class="font-weight-bold pink" href="http://www.janicemasonsteeves.com">janicemasonsteeves.com.</a>
                  </p>    
-                 <div class="wrap border border-top-0 p-3">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-lg btn-dark m-2 enter-bottom" data-toggle="modal" data-target="#exampleModalCenter">Read more</button>
-                 </div>
-                    <!--modal content-->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-lg btn-dark mt-2 enter-bottom" data-toggle="modal" data-target="#exampleModalCenter">Read more</button>
+                <!--modal content-->
              </div><!--end col-->
              <div class="col-lg-6 bg-img-teaching min-50 p-0 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></div>
          </div><!--end row-->
+         
+         <!--signup form-->
+     
+        <div class="row shadow-lg bg-light text-light m-3">
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline pb-2 l-h">Start your journey</h2>
+                <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
+                <!-- Begin MailChimp Signup Form -->
+               <div id="mc_embed_signup">
+                  <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>
+                     <!--form-->
+                     <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a9ab1596540478d19124106d8_66a407ea79" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-2" class="button"></div>
+                     </div>
+                  </form>
+               </div><!--End mailchimp form 2-->
+            </div><!--end col-->
+        </div><!--end row-->
          
          <!--quote-->
                 
@@ -79,7 +98,7 @@ include 'includes/header.php';
             </div>
          <div class="offset-lg-2"></div>
       </div>
-      <!--end row--> 
+      <!--end row-->  
     </div><!--end container-->
     
     <!-- Modal placed outside main container to not be affected by entrance animation -->

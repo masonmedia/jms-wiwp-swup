@@ -68,7 +68,7 @@
         <nav id="menu" class="navbar navbar-expand-xl fixed-top scene_element scene_element--fadeindown">
             <a class="navbar-brand" href="/index.php">Wi<span class="pink">W</span>P</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <img id="hamburger" src="/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">
+          <img id="hamburger" src="/assets/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -76,16 +76,16 @@
                 <a class="nav-link" href="/about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="nfld.php">Newfoundland</a>
+                <a class="nav-link" href="/nfld.php">Newfoundland</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="scotland.php">Scotland</a>
+                <a class="nav-link" href="/scotland.php">Scotland</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="bc.php">British Columbia</a>
+                <a class="nav-link" href="/bc.php">British Columbia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="upcoming.php">Upcoming</a>
+                <a class="nav-link" href="/upcoming.php">Upcoming</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://janicemasonsteeves.com">JMS Home</a>

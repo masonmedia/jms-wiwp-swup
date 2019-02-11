@@ -28,14 +28,9 @@ include 'includes/header.php';
         <div class="row shadow-lg text-secondary m-3">
            <div class="col-lg-6 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-               <div class="d-inline-block display-4 border border-bottom-0 py-3 px-4">
-                  <i class="fa fa-warning fa-stroke align-middle mr-1"></i> 
-                </div>
-                <h2 class="section-title text-uppercase font-weight-light text-secondary border border-bottom-0 p-4 m-0"><span class="pink">Wait</span> list only</h2>              
-                <p class="border p-4 m-0">This workshop is currently full. To add your name to the wait list please email below.</p>
-                <div class="button-wrap border border-top-0 p-3 m-0">
-                    <a class="btn btn-lg btn-secondary border border-top m-0" href="mailto:travel@worldwidequest.com">Contact</a>
-                </div>
+                <h2 class="section-title text-uppercase font-weight-light text-secondary pt-2"><span class="pink">Wait</span> list only</h2>              
+                <p class="pt-2">This workshop is currently full. To add your name to the wait list please email below.</p>
+                <a class="btn btn-lg btn-secondary border border-top m-0" href="mailto:travel@worldwidequest.com">Contact</a>
             </div>
         </div><!--end row-->
 
@@ -43,10 +38,10 @@ include 'includes/header.php';
     
         <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Location</h2>
-                <p class="p-4 m-0 border enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
+                <h2 class="section-title text-uppercase enter-top">Location</h2>
+                <p class="pt-2 enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
                   <a href="#sec-2">
-                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                    <i class="fa fa-long-arrow-down pink enter-bottom"></i>
                   </a>
             </div>
             <div class="col-lg-6 min-50 bg-img-nfld-2 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
@@ -57,10 +52,10 @@ include 'includes/header.php';
         <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 min-50 bg-img-nfld-3 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Details</h2>
-                <p class="p-4 m-0 border enter-left">In the studio, the focus will be on creating an abstract interpretation of your response to the land, working in small formats quickly and intuitively and developing larger paintings as well. At the end of each day, there will be time to share your work, thoughts, and writings. At the end of the week there will be a group critique/sharing with discussion and suggestions about how to carry your work forward once you return home.</p>
+                <h2 class="section-title text-uppercase enter-top">Details</h2>
+                <p class="pt-2 enter-left">In the studio, the focus will be on creating an abstract interpretation of your response to the land, working in small formats quickly and intuitively and developing larger paintings as well. At the end of each day, there will be time to share your work, thoughts, and writings. At the end of the week there will be a group critique/sharing with discussion and suggestions about how to carry your work forward once you return home.</p>
                   <a href="#sec-3">
-                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                    <i class="fa fa-long-arrow-down pink enter-bottom"></i>
                   </a>
             </div>
         </div><!--end row-->
@@ -69,10 +64,10 @@ include 'includes/header.php';
          
          <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
-                <p class="p-4 m-0 border enter-left">Running from June 1-8, 2019, this 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
+                <h2 class="section-title text-uppercase enter-top">Schedule + Accomodation</h2>
+                <p class="pt-2 enter-left">Running from June 1-8, 2019, this 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
                   <a href="#sec-4">
-                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                    <i class="fa fa-long-arrow-down pink enter-bottom"></i>
                   </a>
             </div>
             <div class="col-lg-6 min-50 bg-img-nfld-4 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></div>
@@ -83,17 +78,34 @@ include 'includes/header.php';
     <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left bg-img-nfld-banner min-50 p-0 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start bg-light text-left min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-            <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0">Booking + Info</h2>
-            <div class="wrap p-4 m-0 border">
-                <p>To register, please contact Worldwide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Donna, or email <a class="pink font-weight-bold" href="mailto:donna@worldwidequest.com">donna@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
-             </div>
-             <div class="button-wrap border border-top-0 p-3">
-                <!-- Button trigger modal -->
-                <button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#nfldModal">More Info</button>
-                <!--modal content-->
-             </div><!--end wrap-->
+            <h2 class="section-title text-uppercase">Booking + Info</h2>
+            <p class="py-2">To register, please contact Worldwide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Donna, or email <a class="pink font-weight-bold" href="mailto:donna@worldwidequest.com">donna@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
+            <!-- Button trigger modal -->
+            <button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#nfldModal">More Info</button>
+            <!--modal content-->
          </div><!--end col-->
      </div><!--end row-->
+     
+     <!--signup form-->
+     
+        <div class="row shadow-lg bg-light text-light m-3">
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline pb-2 l-h">Start your journey</h2>
+                <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
+                <!-- Begin MailChimp Signup Form -->
+               <div id="mc_embed_signup">
+                  <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>
+                     <!--form-->
+                     <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a9ab1596540478d19124106d8_66a407ea79" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-2" class="button"></div>
+                     </div>
+                  </form>
+               </div><!--End mailchimp form 2-->
+            </div><!--end col-->
+        </div><!--end row-->
      
      <!--quote-->
                 

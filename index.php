@@ -67,26 +67,26 @@ include 'includes/header.php';
             </div>
         </div><!--end row-->
         
-        <!--card -- chile-->
+        <!--card -- spain-->
         
         <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Chile</h2>
-                <p class="h4 pt-2">Painting in the Atacama</p>
-                <p class="py-2">February 2020</p>
+                <h2 class="headline text-secondary pb-2 l-h">Spain</h2>
+                <p class="h4 pt-2">Art Retreat on the Camino</p>
+                <p class="py-2">May 2020</p>
                 <a href="/upcoming.php" class="btn btn-outline-secondary">Read More</a>
             </div>
-            <div class="col-lg-6 min-50 bg-img-chile" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-        </div><!--end row-->  
+            <div class="col-lg-6 min-50 bg-img-spain" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+        </div><!--end row-->   
         
-        <!--card -- nova scotia-->
+        <!--card -- morocco-->
         
         <div class="row shadow-lg m-3">
-            <div class="col-lg-6 min-50 bg-img-ns" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-6 min-50 bg-img-morocco" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Nova Scotia</h2>
-                <p class="h4 pt-2">Art Retreat in old growth forest</p>
-                <p class="py-2">September 2020</p>
+                <h2 class="headline text-secondary pb-2 l-h">Morocco</h2>
+                <p class="h4 pt-2">Translating the Silence of the Desert</p>
+                <p class="py-2">October 2020</p>
                 <a href="/upcoming.php" class="btn btn-outline-secondary">Read More</a>
             </div>
         </div><!--end row-->  
@@ -105,11 +105,11 @@ include 'includes/header.php';
         
          <!--card -- newsletter/signup-->
         
-        <div class="row shadow-lg bg-light text-secondary m-3">
-            <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Sign up</h2>
-                <p class="pt-2 mb-0 enter-left">Get WiWP news, anouncements, and workshop info straight to your inbox.</p>
+        <div class="row shadow-lg bg-light text-light m-3">
+<!--            <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>-->
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline pb-2 l-h">Start your journey</h2>
+                <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->
                <div id="mc_embed_signup">
                   <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>

@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-<main id="upcoming" role="main">
+<main role="main">
    
     <!--banner-->					
 
-    <div role="banner" class="container-fluid p-0 scene_element scene_element--fadeindown">
+    <div role="banner" class="container-fluid p-0">
         <div class="row d-flex bg-img-upcoming-banner min-100 m-0">
             <div class="offset-lg-1"></div>
                 <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -25,44 +25,45 @@ include 'includes/header.php';
 
     <!--intro-->
 
-    <div class="container-fluid bg-light p-0 py-1 scene_element scene_element--fadein">
+    <div class="container-fluid bg-light p-0 py-1">
         
-        <!--card -- chile-->
+        <!--card -- spain-->
         
         <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Chile</h2>
-                <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Painting in the Atacama</p>
-                <p class="pt-2 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">February 2020</p>
-                <p class="font-italic pt-2 m-0" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Location Coming Soon</p>
-                <!--<a href="http://www.altoatacama.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>-->
+                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Spain</h2>
+                <h4 class="pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat on the Camino</h4>
+                <p class="m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">May 2020</p>
+                <p class="font-italic pt-2 m-0" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Castrillo de los Polvazares | Flores del Camino</p>
+                <button role="button" class="btn btn-outline-secondary mt-3" data-toggle="modal" data-target="#spain">Read More</button>
             </div>
-            <div class="col-lg-6 min-50 bg-img-chile-2" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500"></div>
+            <div class="col-lg-6 min-50 bg-img-spain" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500"></div>
         </div><!--end row--> 
         
-        <!--card -- nova scotia-->
+        <!--card -- morocco-->
         
-        <div id="sec-3" class="row shadow-lg m-3">
+        <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Nova Scotia</h2>
-                <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in old growth forest</p>
-                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">September 2020 | Trout Point Lodge</p>
+                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Morocco</h2>
+                <h4 class="pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Translating the Silence of the Desert</h4>               
+               <p class="m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">October 2020</p>
+                <p class="font-italic pt-2 m-0" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Tagounite | Ait Isfoul</p>
                 <!--activate modal-->
-                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#troutPoint">Read More</button>
-                <!--ns modal content-->
+                <button role="button" class="btn btn-outline-secondary mt-3" data-toggle="modal" data-target="#morocco">Read More</button>
+                <!-- Mongolia Modal Content -->
             </div>
-            <div class="col-lg-6 min-50 bg-img-ns" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-        </div><!--end row-->  
+            <div class="col-lg-6 min-50 bg-img-morocco" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+        </div><!--end row--> 
         
         <!--card -- mongolia-->
         
         <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
                 <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Mongolia</h2>
-                <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in the Gobi</p>
-                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">August, 2021 | Three Camel Lodge</p>
+                <h4 class="pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in the Gobi</h4>
+                <p data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">August, 2021 | Three Camel Lodge</p>
                 <!--activate modal-->
-                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#mongolia">Read More</button>
+                <a href="https://www.threecamellodge.com/" target="_blank"><button type="button" class="btn btn-outline-secondary">Read More</button></a>
                 <!-- Mongolia Modal Content -->
             </div>
             <div class="col-lg-6 min-50 bg-img-mongolia-horses" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
@@ -72,8 +73,8 @@ include 'includes/header.php';
         
         <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Signup</h2>
-                <p class="pt-2 mb-0">Get WiWP info, news, updates, and workshop info straight to your inbox.</p>
+                <h2 class="headline text-secondary pb-2 l-h">Sign up</h2>
+                <p class="pt-2 mb-0">Get WiWP info, news, updates, and special offers straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->
                <div id="mc_embed_signup">
                   <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>
@@ -118,29 +119,29 @@ include 'includes/header.php';
     
 <!--modals-->
 
-<!-- ns Modal -->
-    <div class="modal fade" id="troutPoint" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<!-- spain Modal -->
+    <div class="modal fade" id="spain" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="troutPoint">WiWP: Nova Scotia</h5>
+            <h5 class="modal-title" id="spain">WiWP: Spain</h5>
             <button type="button" class="close h3" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true"><i class="fa fa-plus"></i></span>
             </button>
           </div>
           <div class="modal-body bg-cubes text-left p-4">
-             <div class="jumbotron jumbotron-fluid shadow-lg bg-img-ns p-4 mb-3 animated fadeIn">
+             <div class="jumbotron jumbotron-fluid shadow-lg bg-img-spain p-4 mb-3 animated fadeIn">
                 <div class="wrap h-100 w-100 p-4 border border-light">
-                 <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Forest Bathing</h2>
-                 <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">Trout Point Lodge, Nova Scotia</p>
+                 <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Being Present</h2>
+                 <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">A Painting Workshop on the Camino</p>
                  </div>
              </div>
             <!--schedule-->
-             <h5 class="font-weight-bold border-top border-bottom py-3">September 27 - October 4, 2020</h5>
-              <p class="pt-2">I invite you to join me at a luxury wilderness resort deep in the forests of southwestern Nova Scotia, designated a UNESCO Biosphere Reserve. Trout Point Lodge is an architectural masterpiece, made from giant Eastern Spruce logs. Trout Point's main lodge celebrates the Great Camps erected along the US and Canadian Eastern Seaboard in the early 20th century.</p>
-              <p>In addition to belonging to the prestigious Small Luxury Hotels of the World, Trout Point's main lodge, rooms and suites have qualified as a 5-star Nova Scotia Inn from Canada Select, the national accommodation rating agency</p>
-              <p>As well as being in Nova Scotia in high season for fall colours, we'll have the opportunity of forest bathing. The Japanese government coined the term in 1982 ... a translation of "shinrin-yoku," meaning "taking in the forest atmosphere." It means mindfully walking in the forest with all of your senses open. In addition to forest bathing, Trout Point is the world's first Starlight Hotel, a distinction given by the Starlight Foundation. There is a permanent astronomer on staff who offers guided stargazing using various sophisticated telescopes and astronomic binoculars.</p>
-              <p>In our small group of 8, we'll focus on some ways to experience this forest environment, including forest bathing, meditative walking, sketching, journaling and stargazing. We'll come into the studio to create abstract responses to the land and forest, using cold wax and oil, working in small formats quickly and intuitively, as well as developing larger paintings. At the end of each day, you'll have the opportunity to share your daily work with the group as well as thoughts, ideas and writings. We'll have a group/critique discussion session on the final day, where we'll focus on the work each has done during the week with suggestions as to how to carry the work forward once back at home.</p>
+              <h5 class="font-weight-bold border-top border-bottom py-3">Being Present: A Painting Workshop on the Camino</h5>
+              <p class="py-2">Please join me for a 9-day immersion into the culture and landscape of northern Spain, in the village of Castillo de los Polvazares, located near Astorga, on the famed pilgrimage route of the Camino de Santiago.
+              <p>Pilgrims have walked this path since the middle ages and the numbers are increasing every year. Most follow it as a spiritual path or retreat for their spiritual growth. Flores del Camino is a retreat centre located in this tiny medieval village which is just off the main Camino route, making it a quiet center for contemplation and artwork.</p>
+              <p>Part of the excitement of a workshop in this area is that there are all manner of landscapes, from mountains to plains to painted caves, to the ocean. Richly pigmented soil can be found here, collected and ground to make earthen pigments which we will aim to use in our workshop. Our main focus is to connect with place, translating that experience into abstract paintings.</p>
+              <p>The workshop will take place at Flores del Camino May 12-20, 2020. Registration will begin in April or May 2019. People on my mailing list will be the first to be informed.</p>
               <h5 class="font-weight-bold border-top border-bottom py-3">More information</h5>
               <p class="m-0 py-2">Contact <a class="pink font-weight-bold" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a></p>
           <div class="modal-footer">
@@ -149,14 +150,14 @@ include 'includes/header.php';
         </div>
       </div><!--modal content-->
         </div>
-    </div><!--end ns modal-->
+    </div><!--end spain modal-->
                 
-    <!-- mongolia modal -->
-    <div class="modal fade" id="mongolia" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- morocco modal -->
+    <div class="modal fade" id="morocco" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="mongolia">WiWP: Mongolia</h5>
+            <h5 class="modal-title" id="morocco">WiWP: Morocco</h5>
             <button type="button" class="close h3" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true"><i class="fa fa-plus"></i></span>
             </button>
@@ -164,13 +165,14 @@ include 'includes/header.php';
           <div class="modal-body bg-cubes text-left p-4">
              <div class="jumbotron jumbotron-fluid shadow-lg bg-img-mongolia-horses p-4 mb-3 animated fadeIn">
                 <div class="wrap h-100 w-100 p-4 border border-light">
-                 <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Art Retreat in the Gobi</h2>
-                 <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">Three Camel Lodge, Mongolia</p>
+                 <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Translating the silence of the desert</h2>
+                 <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">Kasbah Aitisfoul, Tagounite, Morocco</p>
                  </div>
              </div>
             <!--schedule-->
-             <h5 class="font-weight-bold border-top border-bottom py-3">August 2020</h5>
-              <p class="pt-2">I invite you to join me in a remote outpost in Mongolia, probably in August of 2020.  There we will stay in the Three Camel Lodge where our accommodation is in luxury gers (or yurts) in the Gobi Desert, each with it's own bathroom. We'll hold our workshop in a ger, eat gourmet meals in the dining room and spend 2 days on out-trips in land rovers to see this area of Mongolia. There will be a tour of Ulaanbaatar, the capital of Mongolia the day after we arrive. Out-trips from our lodge would include a visit to the Yol Valley National Park, the Singing Sands, a meditation temple and the Flaming Cliffs. How exciting is this!</p>
+             <h5 class="font-weight-bold border-top border-bottom py-3">Translating the Silence of the Desert: Kasbah Aitisfoul, Tagounite, Morocco</h5>
+              <p class="pt-2">"Steeped in culture and exotic mystique, Morocco holds an immediate and enduring fascination; although it’s located not too far from Europe, it seems many miles away in both tradition and scenery –  a land where there is a piece of history in every tile of every mosaic, a story at every souk, and a culture that envelopes you upon arrival. As a backdrop to all this, the country’s physical make-up is nothing less than extraordinary – from the High Atlas Mountains to the lonesome shifting sands of the Western Sahara. This beautifully unique place offers its visitors a labyrinth of stories, dreams, contrasts, mysteries and myths..."<span class="font-italic text-secondary">- from the Aitisfoul website.</span></p>
+             <p>From Marrakesh, we will travel south to Tagounite, the last village before the Sahara where we'll stay for a 5-day painting workshop at the comfortable Kasbah Aitisfoul. Inspired by this remote location at the very edge of the silent desert, we'll create uniquely personal paintings</p>
               <h5 class="font-weight-bold border-top border-bottom py-3">More information</h5>
               <p class="m-0 py-2">Contact <a class="pink font-weight-bold" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a></p>
           <div class="modal-footer">
@@ -179,7 +181,7 @@ include 'includes/header.php';
         </div>
       </div><!--modal content-->
         </div>
-    </div><!--end mongolia modal-->            
+    </div><!--end morocco modal--> 
                   
 </main>
 
