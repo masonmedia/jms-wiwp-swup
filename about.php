@@ -12,7 +12,7 @@ include 'includes/header.php';
 
 <!--banner-->
 
-    <div role="banner" class="container-fluid p-0 scene_element scene_element--fadeinup">
+    <div role="banner" class="container-fluid p-0">
       <div class="row d-flex bg-img-about-banner min-100 m-0">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">

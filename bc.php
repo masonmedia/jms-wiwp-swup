@@ -16,8 +16,8 @@ include 'includes/header.php';
         <div id="hero" class="row d-flex bg-img-bc min-100 m-0">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="page-title l-h pb-2 scene_element scene_element--fadeindown scene_element--delayed">British <span class="table-lg">Columbia</span></h2>
-                    <h5 class="text-white text-uppercase pb-2 scene_element scene_element--fadeinup scene_element--delayed">November 10-17, 2019 &#8226; Long Beach Lodge &#8226; Tofino, British Columbia</h5>
+                    <h2 class="page-title l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">British <span class="table-lg">Columbia</span></h2>
+                    <h5 class="text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">November 10-17, 2019 &#8226; Long Beach Lodge &#8226; Tofino, British Columbia</h5>
              </div>
             <div class="offset-lg-2"></div>
         </div>
@@ -25,7 +25,7 @@ include 'includes/header.php';
 
     <!--intro-->
 
-    <div class="container-fluid bg-light p-0 py-1 scene_element scene_element--fadein">
+    <div class="container-fluid bg-light p-0 py-1">
         <div id="sec-1" class="row d-flex text-secondary m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                 <h2 class="section-title text-uppercase enter-bottom">Storm-watching Workshop</h2>

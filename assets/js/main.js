@@ -30,8 +30,6 @@ $(document).ready(function() {
     });
 });
 
-
-
 //lazy load
 
 $(document).ready(function() {

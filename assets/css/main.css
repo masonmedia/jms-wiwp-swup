@@ -105,7 +105,7 @@ body, html {
 }
 
 .container, .container-fluid {
-    background: #f2f2f2;
+/*    background: #f2f2f2;*/
     padding: 5px 0;
 }
 
@@ -394,19 +394,30 @@ a > .headline:hover, a > span:hover {
     transition: 2s;
 }
 
+/*img + lazy load */
 
-@media (min-width: 992px) {
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: .5rem;
-    }
+img {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+img.lazy-loaded,
+.navbar-toggler img {
+    opacity: 1;
+}
+
+.img-full {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* home section slides */
 
 .banner-home {
 	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/img/jms-home-banner.jpg) center;
-	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1529002045502-d3c5024f8e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) center;
+/*	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1529002045502-d3c5024f8e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) center;*/
+	background: url(/assets/img/jms-wiwp-night-sky.jpg) center;
 	background-size: cover;
     background-attachment: fixed;
 }
@@ -480,11 +491,12 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     padding-right: 15px;
 }
 
-/*
-.navbar-toggler {
-    width: 40px;
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+    }
 }
-*/
 
 
 /* home */

@@ -16,8 +16,8 @@ include 'includes/header.php';
         <div id="hero" class="row d-flex bg-img-scotland min-100 m-0">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="headline l-h pb-2 scene_element scene_element--fadeindown scene_element--delayed">Scotland</h2>
-                    <h5 class="text-white text-uppercase pb-2 scene_element scene_element--fadeinup scene_element--delayed">September 14-22, 2019 &#8226; Dunskey Estate &#8226; Portpatrick, Scotland</h5>
+                    <h2 class="page-title l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Scotland</h2>
+                    <h5 class="text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">September 14-22, 2019 &#8226; Dunskey Estate &#8226; Portpatrick, Scotland</h5>
                 </div>
             <div class="offset-lg-2"></div>
         </div>

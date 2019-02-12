@@ -69,19 +69,6 @@ include 'includes/header.php';
             <div class="col-lg-6 min-50 bg-img-mongolia-horses" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row--> 
         
-
-        
-         <!--card -- contact-->
-        
-        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Contact</h2>
-                <p class="py-2 mb-0 enter-left">To put your name on the list or for more information about upcoming workshops, please contact Janice below.</p>
-                 <a class="btn btn-outline-secondary" href="mailto:janicemasonsteeves@gmail.com">Contact</a>
-            </div>
-            <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-        </div><!--end row--> 
-        
         <!--signup form-->
      
         <div class="row shadow-lg bg-light text-light m-3">
