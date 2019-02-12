@@ -17,8 +17,8 @@ include 'includes/header.php';
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
                  <div class="wrap py-5 mb-5">
-                     <h2 class="headline l-h pb-2 scene_element scene_element--fadeindown scene_element--delayed">About</h2>
-                     <h5 class="text-white text-uppercase pb-2 scene_element scene_element--fadeinup scene_element--delayed">Workshops in <span class="pink">Wild</span> Places</h5>
+                     <h1 class="page-title l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">About</h1>
+                     <h1 class="h5 text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Workshops in <span class="pink">Wild</span> Places</h1>
                  </div>
              </div>
             <div class="offset-lg-2"></div>

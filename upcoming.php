@@ -16,8 +16,8 @@ include 'includes/header.php';
         <div class="row d-flex bg-img-upcoming-banner min-100 m-0">
             <div class="offset-lg-1"></div>
                 <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="headline l-h pb-2 mt-5 scene_element scene_element--fadeindown scene_element--delayed">Upcoming Workshops</h2>
-                    <h5 class="text-white text-uppercase pt-2 scene_element scene_element--fadeinright scene_element--delayed">IN THE WORKS FOR 2020 and 2021</h5>
+                    <h2 class="page-title l-h pb-2 mt-5">Upcoming Workshops</h2>
+                    <h5 class="text-white text-uppercase pt-2">IN THE WORKS FOR 2020 and 2021</h5>
                 </div>
             <div class="offset-lg-1"></div>
         </div>

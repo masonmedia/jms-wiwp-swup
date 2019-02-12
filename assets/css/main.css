@@ -209,6 +209,11 @@ a > .headline:hover, a > span:hover {
 	font-weight: 200;
     letter-spacing: 7px;
 }
+.page-title {
+	color: white;
+	font-size: 12vmin;
+	font-weight: 200;
+}
 .headline {
 	color: white;
 	font-size: 12vmin;
@@ -571,8 +576,8 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     background: url(/assets/img/jms-tofino-forest-min.jpg) center;
 	background-size: cover;
 }
-.bg-img-tofino-3 {
-    background: url(/assets/img/jms-wiwp-bc-cottage.jpg) center;
+.bg-img-tofino-room {
+    background: url(/assets/img/jms-wiwp-bc-accomodation.jpg) center;
 	background-size: cover;
 }
 .bg-img-tofino-4 {
@@ -676,7 +681,8 @@ footer .fa {
         font-size: 15vmin;
     }
     .site-title {
-        font-size: 12vmin;
+        font-size: 11vmin;
+        line-height: 100%;
         text-align: left;
     }
     .section-title {
@@ -684,11 +690,11 @@ footer .fa {
         font-weight: bold;
     }
     .bg-img-scotland {
-        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-dunskey-aerial-min.jpg) 70% 70%;
+/*        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-dunskey-aerial-min.jpg) center bottom;*/
         background-size: cover;
     }
     .bg-img-bc {
-        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jms-tofino-aerial.jpg) 20% center;
+/*        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jms-tofino-aerial.jpg) 20% center;*/
         background-size: cover;
     }
     

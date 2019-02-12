@@ -16,7 +16,7 @@ include 'includes/header.php';
         <div id="hero" class="row d-flex bg-img-bc min-100 m-0">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="headline l-h pb-2 scene_element scene_element--fadeindown scene_element--delayed">British <span class="table-lg">Columbia</span></h2>
+                    <h2 class="page-title l-h pb-2 scene_element scene_element--fadeindown scene_element--delayed">British <span class="table-lg">Columbia</span></h2>
                     <h5 class="text-white text-uppercase pb-2 scene_element scene_element--fadeinup scene_element--delayed">November 10-17, 2019 &#8226; Long Beach Lodge &#8226; Tofino, British Columbia</h5>
              </div>
             <div class="offset-lg-2"></div>
@@ -51,10 +51,10 @@ include 'includes/header.php';
          <div id="sec-3" class="row d-flex text-secondary m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                <h2 class="section-title text-uppercase enter-top">Accomodation</h2>
-                <p class="pt-2 enter-left">7 nights accommodation in 2-bedroom rainforest cottages. We will have 4 rainforest cottages for our group. Each bedroom in each cottage has an ensuite bath: one bedroom is upstairs and one on the main level. Each 1000 sq.ft. cottage features a shared living room, gas fireplace, dining area, kitchen, and a semi-private hot tub on the patio.</p>
+                <p class="pt-2 enter-left">7 nights accommodation in this award-winning lodge in either standard or deluxe beachfront rooms, both of which have easy access to the beach. The workshop studio space is located in the main building with 24 hour access for students. A 12-person hot tub and sauna are just outside so bring your bathing suit along with your raincoat and boots!</p>
                 <i class="fa fa-long-arrow-down pink enter-bottom"></i>
             </div>
-            <div class="col-lg-6 min-50 bg-img-tofino-3 p-0" data-aos="fade" data-aos-duration="1000"></div>
+            <div class="col-lg-6 min-50 bg-img-tofino-room p-0" data-aos="fade" data-aos-duration="1000"></div>
         </div><!--end row-->
          
          <!-- booking-->
@@ -116,7 +116,7 @@ include 'includes/header.php';
             </button>
           </div>
           <div class="modal-body bg-cubes p-4">
-             <div class="jumbotron jumbotron-fluid shadow-lg bg-img-scotland-5 p-4 mb-3 animated fadeIn">
+             <div class="jumbotron jumbotron-fluid shadow-lg bg-img-tofino-2 p-4 mb-3 animated fadeIn">
                 <div class="wrap h-100 w-100 p-4 border border-light">
                  <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Storm-Watching Workshop</h2>
                  <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">November 10-17, 2019 · Tofino, BC</p>
