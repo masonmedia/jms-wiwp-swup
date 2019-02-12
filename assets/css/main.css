@@ -401,6 +401,7 @@ a > .headline:hover, a > span:hover {
 
 .banner-home {
 	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/img/jms-home-banner.jpg) center;
+	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1529002045502-d3c5024f8e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) center;
 	background-size: cover;
     background-attachment: fixed;
 }
@@ -473,6 +474,12 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 .nav-item {
     padding-right: 15px;
 }
+
+/*
+.navbar-toggler {
+    width: 40px;
+}
+*/
 
 
 /* home */

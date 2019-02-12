@@ -29,10 +29,10 @@ include 'includes/header.php';
     
         <div id="sec-1" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
-                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-bottom">A Painting Workshop in a Scottish Castle</h2>
-                <p class="p-4 m-0 border enter-left">Dunskey is a historically listed Edwardian private home built in 1900 on 2000 acres of ocean-front land. The Castle is superbly maintained and retains all of its original features. There are miles of walking trails on this property, as well as a maze and two lakes.</p>
+                <h2 class="section-title text-uppercase enter-bottom">A Painting Workshop in a <span class="pink">Scottish Castle</span></h2>
+                <p class="pt-2 enter-left">Dunskey is a historically listed Edwardian private home built in 1900 on two thousand acres of ocean-front land. The Castle is superbly maintained and retains all of its original features. There are miles of walking trails on this property, as well as a maze and two lakes.</p>
                   <a href="#sec-2">
-                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                    <i class="fa fa-long-arrow-down pink enter-bottom"></i>
                   </a>
             </div>
             <div class="col-lg-6 min-50 bg-img-scotland-2 p-0" data-aos="fade" data-aos-duration="1000"></div>
@@ -43,10 +43,10 @@ include 'includes/header.php';
          <div id="sec-2" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 min-50 bg-img-scotland-3 p-0" data-aos="fade" data-aos-duration="1000"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
-               <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Details</h2>
-                <p class="p-4 m-0 border enter-left">The workshop focus will be on experiencing various ways of connecting to this unique landscape. Some of these include contemplative walking, observing, sketching, journaling, writing exercises and daily meditation sessions. We'll aim to create abstract responses to the land using water-based media. Added to the itinerary will be potential tours and talks, such as a talk by the castle owner on the history of the property, a tour by the head gardener, and a guided tour of the Southern Upland Way along with a hot picnic lunch.</p>
+               <h2 class="section-title text-uppercase enter-top">Details</h2>
+                <p class="pt-2 enter-left">The workshop focus will be on experiencing various ways of connecting to this unique landscape. Some of these include contemplative walking, observing, sketching, journaling, writing exercises and daily meditation sessions. We'll aim to create abstract responses to the land using water-based media. Added to the itinerary will be potential tours and talks, such as a talk by the castle owner on the history of the property, a tour by the head gardener, and a guided tour of the Southern Upland Way along with a hot picnic lunch.</p>
                   <a href="#sec-3">
-                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                    <i class="fa fa-long-arrow-down pink enter-bottom"></i>
                   </a>
             </div>
         </div><!--end row-->
@@ -55,10 +55,10 @@ include 'includes/header.php';
 
          <div id="sec-3" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
-               <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Accomodation</h2>
-                <p class="p-4 m-0 border enter-left">Accommodation is in separate, newly renovated bedrooms in the East Wing of the castle, which features four reception rooms with ocean views, an enclosed Edwardian porch, a library, club room, and more. You'll also enjoy fabulous meals in our private dining room prepared by a Michelin-star executive chef.</p>
+               <h2 class="section-title text-uppercase enter-top">Accomodation</h2>
+                <p class="pt-2 enter-left">Accommodation is in separate, newly renovated bedrooms in the East Wing of the castle, which features four reception rooms with ocean views, an enclosed Edwardian porch, a library, club room, and more. You'll also enjoy fabulous meals in our private dining room prepared by a Michelin-star executive chef.</p>
                   <a href="#sec-4">
-                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                    <i class="fa fa-long-arrow-down pink enter-bottom"></i>
                   </a>
             </div>
             <div class="col-lg-6 min-50 bg-img-scotland-4 p-0" data-aos="fade" data-aos-duration="1000"></div>
@@ -69,18 +69,35 @@ include 'includes/header.php';
          <div id="sec-4" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 bg-img-scotland-5 min-50 p-0" data-aos="fade" data-aos-duration="1000"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
-               <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-duration="1000">Booking + Info</h2>
-                <div class="wrap p-4 m-0 border" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-                    <p>We are now accepting registrations for the Scottish Castle Workshop. Get more information and book your spot below.</p>
-                 </div><!--end wrap-->
-                 <div class="wrap border border-top-0 p-3" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
+               <h2 class="section-title text-uppercase" data-aos="fade-down" data-aos-duration="1000">Booking + Info</h2>
+                <p class="pt-2">We are now accepting registrations for the Scottish Castle Workshop. Get more information and book your spot below.</p>
                 <!-- Button trigger modal -->
                 <button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#scotlandModal">
-                  To Book
+                  Book now
                 </button>
                     <!--modal content-->
-             </div><!--end wrap-->
             </div>
+        </div><!--end row-->
+        
+        <!--signup form-->
+     
+        <div class="row shadow-lg bg-light text-light m-3">
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline pb-2 l-h">Start your journey</h2>
+                <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
+                <!-- Begin MailChimp Signup Form -->
+               <div id="mc_embed_signup">
+                  <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>
+                     <!--form-->
+                     <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a9ab1596540478d19124106d8_66a407ea79" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-2" class="button"></div>
+                     </div>
+                  </form>
+               </div><!--End mailchimp form 2-->
+            </div><!--end col-->
         </div><!--end row-->
         
         <!--quote-->

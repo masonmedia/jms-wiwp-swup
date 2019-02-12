@@ -55,7 +55,7 @@ include 'includes/header.php';
         <!-- about jms -->
 
         <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
-             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12 bg-white" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right min-50 p-5 o-12 bg-white" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase">About Janice Mason Steeves</h2>
                  <p class="pt-2">Janice brings 35 years of painting experience to her teaching, and a passion to help each student find their own way. Her teaching focuses not only on technique, but on composition, design, color, mindset, and self-expression. She offers a unique method which encourages students to develop their own artistic voices, in addition to a personal way of thinking about art, painting, and life. Find out more at <a class="font-weight-bold pink" href="http://www.janicemasonsteeves.com">janicemasonsteeves.com.</a>
                  </p>    

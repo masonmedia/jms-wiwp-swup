@@ -69,28 +69,7 @@ include 'includes/header.php';
             <div class="col-lg-6 min-50 bg-img-mongolia-horses" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row--> 
         
-         <!--card -- newsletter/signup-->
-        
-        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Sign up</h2>
-                <p class="pt-2 mb-0">Get WiWP info, news, updates, and special offers straight to your inbox.</p>
-                <!-- Begin MailChimp Signup Form -->
-               <div id="mc_embed_signup">
-                  <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>
-                     <!--form-->
-                     <div id="mc_embed_signup_scroll">
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a9ab1596540478d19124106d8_66a407ea79" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-2" class="button"></div>
-                     </div>
-                  </form>
-               </div>
-               <!--End mailchimp form 2-->
-            </div>
-            <div class="col-lg-6 bg-img-scotland-5 min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-        </div><!--end row-->
+
         
          <!--card -- contact-->
         
@@ -102,6 +81,27 @@ include 'includes/header.php';
             </div>
             <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row--> 
+        
+        <!--signup form-->
+     
+        <div class="row shadow-lg bg-light text-light m-3">
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline pb-2 l-h">Start your journey</h2>
+                <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
+                <!-- Begin MailChimp Signup Form -->
+               <div id="mc_embed_signup">
+                  <form action="https://janicemasonsteeves.us12.list-manage.com/subscribe/post?u=a9ab1596540478d19124106d8&amp;id=66a407ea79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate-2 bs" target="_blank" novalidate>
+                     <!--form-->
+                     <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a9ab1596540478d19124106d8_66a407ea79" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-2" class="button"></div>
+                     </div>
+                  </form>
+               </div><!--End mailchimp form 2-->
+            </div><!--end col-->
+        </div><!--end row-->
         
         <!--quote-->
                 

@@ -69,7 +69,8 @@
             <a class="navbar-brand" href="/index.php">Wi<span class="pink">W</span>P</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <img id="hamburger" src="/assets/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">
-          </button>
+        
+         </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item">
