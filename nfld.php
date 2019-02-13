@@ -12,10 +12,12 @@ include 'includes/header.php';
 
 <!--banner-->
 
-    <div role="banner" class="container-fluid p-0 py-1 scene_element scene_element--fadeinright">
-          <div class="row d-flex bg-img-nfld min-100 m-0">
+    <div role="banner" class="container-fluid p-0 py-1">
+          <div class="row d-flex min-100 m-0">
+            <!--bg-img-nfld-->
+            <img class="img-full absolute z-0 left-0 top-0 up up-med lazy" data-src="/assets/img/jms-the-drs-house-1.jpg" alt="Workshops in Wild Places: Newfoundland">
             <div class="offset-lg-2"></div>
-                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
+                <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center  ds p-5">
                     <h1 class="page-title card-home py-2 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">New<span class="table-lg">found</span><span class="table-lg">land</span></h1>
                     <h5 class="text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">June 1-8, 2019 &#8226; The Doctor’s House &#8226; Green’s Harbour</h5>
              </div>
@@ -24,7 +26,7 @@ include 'includes/header.php';
     </div>
         
         <!--card -- wait list only-->
-    <div class="container-fluid bg-light p-0 py-1 scene_element scene_element--fadein">
+    <div class="container-fluid bg-light p-0 py-1">
         <div class="row shadow-lg text-secondary m-3">
            <div class="col-lg-6 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
@@ -89,7 +91,7 @@ include 'includes/header.php';
      <!--signup form-->
      
         <div class="row shadow-lg bg-light text-light m-3">
-            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline pb-2 l-h">Start your journey</h2>
                 <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->

@@ -259,6 +259,13 @@ a > .headline:hover, a > span:hover {
     opacity: 0.5;
 }
 
+.ts {
+    text-shadow: 0 0 2px #000;
+}
+.ds {
+    filter: drop-shadow(1px 1px 3px #000);
+}
+
 /* icons */
 
 .fa-stroke {
@@ -398,7 +405,7 @@ a > .headline:hover, a > span:hover {
 
 img {
   opacity: 0;
-  transition: opacity .5s ease-in;
+  transition: opacity .3s ease-in;
 }
 
 img.lazy-loaded,
@@ -410,6 +417,15 @@ img.lazy-loaded,
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/*img effects*/
+
+.filter-contrast {
+    filter: contrast(160%);
+}
+.filter-dark {
+    filter: brightness(80%);
 }
 
 /* home section slides */

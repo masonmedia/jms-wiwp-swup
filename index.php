@@ -14,7 +14,7 @@ include 'includes/header.php';
 
     <div role="banner" class="container-fluid p-0">
       <div class="row d-flex min-100 m-0">
-           <img class="img-full absolute z-0 left-0 top-0 up up-med lazy" src="/assets/img/jms-wiwp-night-sky-2.jpg" alt="Workshops in Wild Places">
+           <img class="img-full absolute z-0 left-0 top-0 up up-med lazy" data-src="/assets/img/jms-wiwp-night-sky-2.jpg" alt="Workshops in Wild Places">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center vh100 text-white p-5">
 <!--               banner-home-->
                 <h1 class="site-title ts l-h mb-3 w-100">
@@ -108,8 +108,7 @@ include 'includes/header.php';
          <!--card -- newsletter/signup-->
         
         <div class="row shadow-lg bg-light text-light m-3">
-<!--            <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>-->
-            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+            <div class="col-lg-12 bg-img-contact d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline pb-2 l-h">Start your journey</h2>
                 <p class="pt-2 mb-0 enter-left">Sign up and get WiWP news, anouncements, special offers and workshop info straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->
