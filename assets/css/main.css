@@ -612,6 +612,10 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     background: url(/assets/img/jms-tofino-pano.jpg) center;
 	background-size: cover;
 }
+.bg-img-tofino-storm {
+    background: url(/assets/img/jms-tofino-storm-surf.jpeg) center;
+    background-size: cover;
+}
 
 /* nova scotia */
 

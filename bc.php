@@ -27,18 +27,18 @@ include 'includes/header.php';
     <!--intro-->
 
     <div class="container-fluid bg-light p-0 py-1">
-        <div id="sec-1" class="row d-flex text-secondary m-3 shadow-lg">
+        <div id="sec-1" class="row d-flex min-70 text-secondary m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                 <h2 class="section-title text-uppercase enter-bottom">Storm-watching Workshop</h2>
                 <p class="pt-2 enter-left">Join me at Cox Bay on the west coast of Canada for a one-week painting workshop during storm-watching season. We'll be staying right on the ocean at <a class="font-weight-bold pink"  href="https://www.longbeachlodgeresort.com/" target="_blank">Long Beach Lodge</a>. Bring your raincoat and boots to experience the exhilaration of wind and storms that blow right across the Pacific as you walk the wide expanse of Cox Bay. Inside we'll aim to translate that experience into abstract paintings using cold wax and oils.</p>
                 <i class="fa fa-long-arrow-down pink enter-bottom"></i>
             </div>
-            <div class="col-lg-6 min-50 bg-img-tofino-1 p-0" data-aos="fade" data-aos-duration="1000"></div>
+            <div class="col-lg-6 min-50 bg-img-tofino-storm p-0" data-aos="fade" data-aos-duration="1000"></div>
         </div><!--end row-->         
          
          <!-- details-->
 
-         <div id="sec-2" class="row d-flex text-secondary m-3 shadow-lg">
+         <div id="sec-2" class="row d-flex min-70 text-secondary m-3 shadow-lg">
             <div class="col-lg-6 min-50 bg-img-tofino-2 p-0" data-aos="fade" data-aos-duration="1000"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                <h2 class="section-title text-uppercase enter-top">Details</h2>
@@ -49,18 +49,18 @@ include 'includes/header.php';
          
          <!-- schedule-->
 
-         <div id="sec-3" class="row d-flex text-secondary m-3 shadow-lg">
+         <div id="sec-3" class="row d-flex min-70 text-secondary m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                <h2 class="section-title text-uppercase enter-top">Accomodation</h2>
                 <p class="pt-2 enter-left">7 nights accommodation in this award-winning lodge in either standard or deluxe beachfront rooms, both of which have easy access to the beach. The workshop studio space is located in the main building with 24 hour access for students. A 12-person hot tub and sauna are just outside so bring your bathing suit along with your raincoat and boots!</p>
                 <i class="fa fa-long-arrow-down pink enter-bottom"></i>
             </div>
-            <div class="col-lg-6 min-50 bg-img-tofino-room p-0" data-aos="fade" data-aos-duration="1000"></div>
+            <div class="col-lg-6 min-50 bg-img-tofino-1 p-0" data-aos="fade" data-aos-duration="1000"></div>
         </div><!--end row-->
          
          <!-- booking-->
 
-         <div id="sec-4" class="row d-flex text-secondary m-3 shadow-lg">
+         <div id="sec-4" class="row d-flex min-70 text-secondary m-3 shadow-lg">
             <div class="col-lg-6 min-50 bg-img-tofino-4 p-0" data-aos="fade" data-aos-duration="1500">
                 <span class="screen-reader-text">Workshops in Wild Places: A room at Long Beach Lodge</span>
             </div>
