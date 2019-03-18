@@ -2,7 +2,7 @@
 
 $title = "WiWP | BC";
 
-$metaD = "Welcome to Workshops in Wild Places";
+$metaD = "Join me at Cox Bay on the west coast of Canada for a one-week painting workshop during storm-watching season. Bring your raincoat and boots to experience the exhilaration of wind and storms that blow right across the Pacific.";
 
 include 'includes/header.php';
 
