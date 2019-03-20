@@ -6,7 +6,13 @@ For more information see [workshopsinwildplaces.com](https://workshopsinwildplac
 
 ## **Layout and Frameworks**
 
-The site uses Bootstrap 4.1, flexbox, and functional css.
+The site uses Bootstrap 4.1, flexbox, functional css, and the SWUP library (see below).
+
+## **SWUP**
+
+WIWP uses the [SWUP](https://github.com/gmrchk/swup) library for AJAX page transitions and the addition of entrance/exit animation classes. This gives the site an app-like user experience: pages do not reload, view changes are fast, the initial page load is light, and it is easily extensible with simple (or complex) css and js animations.
+
+SWUP works by wrapping main page content (any content you want changed without refresh) in a swup id `id="swup"`. This alone works to swap out content without reload. The addition of a `.transition-` class then offers great flexibility in creating custom animation options (refer the SWUP API). The base class for fading in and out is `.transition-fade`.
 
 ## **PHP**
 
@@ -25,9 +31,11 @@ PHP is used for header and footer includes.
 
 ## **JS**
 
-1. SWUP: an ajax plugin that hijacks http requests, swapping page content out without page refresh. Significantly improves view change speed and performance in addition to allowing for entrance and exit animation classes to be added for page transitions. All content is wrapped in an ID of "swup", which takes care of injecting and removing content without reload. The css class `.transition-fade` provides the base fading transition animation, while a host of other options (currently not used) are available in the stylesheet under `SWUP transition animations`. 
+1. AOS ("animate on scroll"). A simple css/js based animation library that activates a variety of css animations on scroll.
 
-2. AOS ("animate on scroll"). A simple css/js based animation library that activates a variety of css animations on scroll.
+## **Mailchimp signup form**
+
+1. A mailchimp newsletter signup form is added to each page to increase visibility and build mailing list.
 
 ## **Schema/Google structured data/SEO**
     
