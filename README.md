@@ -45,4 +45,4 @@ Refer to [schema.org](https://schema.org/docs/gs.html), [Google structured data]
 
 ## **.htaccess**
 
-1. An .htaccess rewrite is employed to remove .php for pretty urls.
+1. An .htaccess rewrite is employed to remove .php file extensions for pretty urls.
