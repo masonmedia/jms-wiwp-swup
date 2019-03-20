@@ -58,6 +58,61 @@
     <link rel="stylesheet" href="/assets/css/keyframes.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <!--schema structured data-->
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+            "@type": "Organization",
+              "name": "Workshops in Wild Places",
+              "description": "Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves. In these unique, innovative workshops, students travel to remote locations throughout the world to connect with the beauty, energy and power of the wild landscape and then – through a facilitated contemplative and creative process – translate that response into abstract paintings.",
+              "@id":"https://workshopsinwildplaces.com",
+              "knowsAbout": "Painting, Art Teaching, Cold Wax Medium, Abstract painting, Travel.",
+              "url": "https://workshopsinwildplaces.com",
+              "sameAs": [
+                "https://www.facebook.com/workshopsinwildplaces",
+                "https://www.instagram.com/janicemasonsteeves/",
+                "https://janicemasonsteevesartwork.blogspot.com/",
+                "https://janicemasonsteeves.com/"
+              ],
+              "logo": "https://www.decentral.ca/assets/img/decentral_D_logo.png",
+              "image": [
+                "https://workshopsinwildplaces.com/assets/img/jms-wiwp-night-sky-2.jpg",
+                "https://workshopsinwildplaces.com/assets/img/jms-about-banner-Ireland-min.jpg",
+                "https://workshopsinwildplaces.com/assets/img/jms-tofino-storm-surf.jpeg",
+                "https://workshopsinwildplaces.com/assets/img/jms-workshops-min.jpg",
+                "https://workshopsinwildplaces.com/assets/img/jms-artist-photo-yellow.jpg",
+                "https://workshopsinwildplaces.com/assets/img/jms-tofino-forest-min.jpg",
+                "https://workshopsinwildplaces.com/assets/img/jms-dunskey-aerial.jpg",
+                "https://workshopsinwildplaces.com/assets/img/jms-the-drs-house-1.jpg"
+               ],
+              "foundingDate": "2018",
+              "foundingLocation": {
+                "@type": "Place",
+                "name": "Milton, Canada",
+                "image": "https://workshopsinwildplaces.com/assets/img/jms-teaching-class.jpg"
+              },
+              "founder": {
+                "@type": "Person",
+                "name": "Janice Mason Steeves",
+                "jobTitle": "Founder, Artist, Art Educator",
+                "description": "Canadian artist Janice Mason Steeves is represented by galleries in Canada and the U.S., with work in public, corporate, and private collections in Canada and internationally. As well as an active one-on-one Art Mentoring program, Janice teaches painting workshops in Canada, the U.S., and Europe. She has also been awarded artist residencies in Spain, Ireland, Sweden, and Iceland.",
+                "award": "2018 EY Emerging Entrepreneur of the Year Award (Ontario, Canada), 2018 FinTech Leader of the Year Award, named to Toronto Life’s list of the 50 Most Influential people in 2018.",
+                "knowsAbout": "Painting, Cold wax medium, Encaustic, Abstract art, Education",
+                "url": "https://janicemasonsteeves.com"
+              },
+              "brand": {
+                  "@type": "Product",
+                  "name": "Workshops in Wild Places",
+                  "description": "Jaxx Liberty is a digital wallet that supports over 85 assets and is available on iOS, Android, Desktop, and for Google Chrome.",
+                  "url": "https://jaxx.io"
+                  },
+              "owns": { 
+              "@type": "Product",
+              "name": "Workshops in Wild Places"
+              },
+              "email": "janicemasonsteeves@gmail.com"
+            }
+    </script>
 </head>
 <body>
    <div id="swup" class="transition-fade">
@@ -66,7 +121,7 @@
     <![endif]-->
     <!--nav-->
         <nav id="menu" class="navbar navbar-expand-xl fixed-top scene_element scene_element--fadeindown">
-            <a class="navbar-brand" href="/index.php">Wi<span class="pink">W</span>P</a>
+            <a class="navbar-brand" href="/">Wi<span class="pink">W</span>P</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <img id="hamburger" src="/assets/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">
         
