@@ -9,7 +9,7 @@
        echo $metaD; 
     } 
     else { 
-       echo "Some meta description"; 
+       echo "Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves."; 
     } ?>" />
 
     <title><?php 
@@ -17,16 +17,15 @@
        echo $title; 
     } 
     else { 
-       echo "Default title tag"; 
+       echo "Workshops in Wild Places"; 
     } ?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
+    <!-- <link rel="manifest" href="site.webmanifest"> to be added-->
     <link rel="apple-touch-icon" href="jms-touch-icon-1.png">
     <link rel="short icon" href="jms.ico">
     <!-- Place favicon.ico in the root directory -->
      <!--core meta data-->
-    <meta name="description" content="Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves.">
     <meta name="keywords" content="Janice Mason Steeves,Art,Abstract,Workshops in Wild Places">
     <!-- Open Graph Meta Data -->
     <meta property="og:description" content="">
@@ -44,9 +43,7 @@
     <meta name="twitter:image" content="https://workshopsinwildplaces.com/img/jms-wiwp-social-banner.png">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,900" rel="stylesheet">
-    <!--animate.css-->
-    <link rel="stylesheet" href="/css/animate.css/animate.min.css">
-    <!--   mailchimp css link -->
+    <!-- mailchimp css link -->
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <!--aos-->
     <link href="/assets/css/aos.css" rel="stylesheet">
@@ -55,7 +52,6 @@
     <!--font awesome-->
     <link href="/assets/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/pageTransitions.css">
-    <link rel="stylesheet" href="/assets/css/keyframes.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <!--schema structured data-->

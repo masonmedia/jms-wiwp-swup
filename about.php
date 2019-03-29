@@ -2,7 +2,7 @@
 
 $title = "WiWP | About";
 
-$metaD = "Welcome to Workshops in Wild Places";
+$metaD = "About Workshops in Wild Places";
 
 include 'includes/header.php';
 
