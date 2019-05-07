@@ -16,7 +16,7 @@ SWUP works by wrapping main page content (any content you want changed without r
 
 ## **PHP**
 
-PHP is used for header and footer includes.
+PHP is used for header and footer includes (located in the 'includes' folder).
 
 ## **CSS**
 
