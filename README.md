@@ -1,6 +1,6 @@
 # **Workshops in Wild Places**
 
-<img src="assets/img/jms-artist-studio-blue.jpeg"
+<img src="assets/img/jms-browser-social.png"
      alt="Workshops in Wild Places homepage banner photo"
      style="width: 100%; float: left; margin: 0 auto;" />
 
