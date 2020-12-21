@@ -1,5 +1,9 @@
 # **Workshops in Wild Places**
 
+<img src="assets/img/jms-artist-studio-blue.jpeg"
+     alt="Workshops in Wild Places homepage banner photo"
+     style="width: 100%; float: left; margin: 0 auto;" />
+
 The official website of Workshops in Wild Places, an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves. Travel to remote locations throughout the world to connect with the beauty and power of the wild landscape.
 
 For more information see [workshopsinwildplaces.com](https://workshopsinwildplaces.com) and [janicemasonsteeves.com](https://janicemasonsteeves.com).
